@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+  application:
+    name: meta-jms
+  activemq:
+    broker-url: tcp://13.200.251.79:61616
+    user: admin
+    password: admin
+    packages:
+      trust-all: true   # optional, if sending complex objects
+  jms:
+    pub-sub-domain: false  # false = Queue (default), true = Topic
+region:
+  default1:
+    value: atl
