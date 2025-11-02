@@ -1,0 +1,10 @@
+name: Build maven the Application
+
+on:
+  push:
+    branches:
+      - feature/build_job
+
+jobs:
+  build:
+    
