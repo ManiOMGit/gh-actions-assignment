@@ -2,7 +2,7 @@ name: Parallel execution of CI Workflow
 
 on:                  
   push:
-    branches: [ main ]  # branches: [ main, develop, release ]
+    branches: [ main,feature/build_job ]  # branches: [ main, develop, release ]
   workflow_dispatch: 
 
 jobs:                  
