@@ -29,6 +29,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Run unit tests
+      - name: Run unit tests Commit E
         run: mvn test
  
