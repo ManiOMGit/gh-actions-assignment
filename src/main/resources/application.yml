@@ -14,4 +14,4 @@ spring:
     pub-sub-domain: false  # false = Queue (default), true = Topic
 region:
   default1:
-    value: atl
+    value: atl_1
