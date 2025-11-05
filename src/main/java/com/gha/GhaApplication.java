@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GhaApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Hey I am hotfix in main branch and added another feature in develop");
 		System.out.println("Hey I am hotfix in main branch added new feature to main");
 		SpringApplication.run(GhaApplication.class, args);
 	}
